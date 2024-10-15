@@ -1,0 +1,32 @@
+.read{
+    background-color: rgb(239, 255, 137);
+    border: 3px solid;
+}
+
+.unread{
+    background-color: rgb(152, 255, 139);
+    border: 3px solid;
+}
+
+.today{
+    background-color: rgb(255, 177, 245);
+    border: 3px solid;
+}
+
+li:nth-child(even){
+    background-color: rgba(151, 217, 255, 0.868);
+}
+li:nth-child(odd){
+    background-color: rgba(175, 255, 234, 0.964);
+}
+li:nth-child(even):hover{
+    background-color: rgba(151, 217, 255, 0.595);
+}
+li:nth-child(odd):hover{
+    background-color: rgba(175, 255, 234, 0.519);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.477);
+    transition: box-shadow ease-in-out 0.5s;
+}

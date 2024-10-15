@@ -1,0 +1,47 @@
+.total-user{
+    background-color: rgb(207, 155, 255);
+    border: 3px solid;
+}
+
+.active-user{
+    background-color: rgb(155, 255, 163);
+    border: 3px solid;
+}
+
+.active-admin{
+    background-color: rgb(173, 173, 173);
+    border: 3px solid;
+}
+
+.total-report{
+    background-color: rgb(255, 255, 133);
+    border: 3px solid;
+}
+
+.report-resolved{
+    background-color: rgb(129, 255, 211);
+    border: 3px solid;
+}
+
+.pending-report{
+    background-color: rgb(255, 106, 144);
+    border: 3px solid;
+}
+
+li:nth-child(even){
+    background-color: rgba(183, 183, 183, 0.868);
+}
+li:nth-child(odd){
+    background-color: rgba(212, 212, 212, 0.964);
+}
+li:nth-child(even):hover{
+    background-color: rgba(183, 183, 183, 0.69);
+}
+li:nth-child(odd):hover{
+    background-color: rgba(212, 212, 212, 0.686);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.477);
+    transition: box-shadow ease-in-out 0.5s;
+}
